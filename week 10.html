@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prototyping Logboek - Les 10</title>
+<link href="dist/output.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: "Poppins", sans-serif; }
+</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+
+  <!-- Navigation -->
+    <nav class="w-full bg-white shadow-md py-4 px-6 fixed top-0 left-0 z-50">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between">
+            
+            <p class="font-bold text-pink-600 
+                    text-xl sm:text-2xl md:text-3xl 
+                    text-left">
+                Prototyping Tools - Lost in Tra(i)nslation
+            </p>
+
+            <p class="font-bold text-pink-600 drop-shadow-lg 
+                    text-lg sm:text-xl md:text-3xl 
+                    text-left md:text-center mt-1 md:mt-0">
+                Sam Reekmans – 1GDM1
+            </p>
+        </div>
+    </nav>
+
+<div class="container mx-auto pt-28 px-6 max-w-4xl space-y-8 text-left">
+
+<div class="flex items-center justify-between w-full relative" style="height: 80px;"> <!-- relative container -->
+    <div class="text-4xl font-bold text-pink-500">Les 10</div>
+    <a href="index.html" 
+       class="text-white text-lg font-semibold px-6 py-2 rounded-lg shadow transition duration-300 hover:opacity-80 absolute" 
+       style="background-color: rgb(236,72,153); top: 20px; right: 15px;">
+        Home
+    </a>
+</div>
+
+<div class="bg-white shadow-lg rounded-xl p-8 space-y-6 hover:shadow-2xl transition">
+
+            <h1 class="text-3xl font-bold text-gray-900">Feedback</h1>
+
+           <p class="leading-relaxed">
+            Deze week hebben de docenten feedback gegeven op de website en de gsm-schermen. Met deze opmerkingen ben ik aan de slag gegaan en heb ik aanpassingen gedaan in mijn website en mijn Figma-ontwerpen.
+            </p>
+
+            <h2 class="text-2xl font-semibold mt-6">Tailwind</h2>
+            <h3 class="text-lg font-semibold">Wat ik deed:</h3>
+            <p class="leading-relaxed">
+                Ik heb mijn website nagekeken aan de hand van de feedback van de docent en gecontroleerd welke verplichte elementen nog ontbraken.
+            </p>
+
+            <h3 class="text-lg font-semibold">Wat ik veranderde en waarom:</h3>
+            <p class="leading-relaxed">
+             De docent had vier verplichte puntjes opgegeven, waarvan ik er drie nog niet had toegepast. Deze heb ik toegevoegd:
+            </p>
+             <ul class="list-disc ml-6 text-gray-700">
+                 <li>Op elke pagina heb ik mijn naam en groep vermeld, zodat meteen duidelijk is van wie de website is.</li>
+                 <li>Op elke pagina heb ik een footer geplaatst met een link naar de laatst gepubliceerde versie van mijn code op GitHub, zodat de code eenvoudig terug te vinden is.</li>
+                 <li>Op de homepage heb ik een link toegevoegd om de gecomprimeerde PDF van de ontwerpdocumentatie te downloaden, zodat alle documentatie gemakkelijk toegankelijk is.</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold">UX/UI-vragen:</h3>
+            <ul class="list-disc ml-6 text-gray-700">
+                <li>Zijn alle verplichte elementen logisch geïntegreerd in het ontwerp?</li>
+                <li>Blijft de website overzichtelijk ondanks de extra informatie?</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold">Usability check:</h3>
+            <p class="leading-relaxed">
+                Door te experimenteren met de plaatsing van de footer en extra informatie heb ik bepaald wat het meest overzichtelijk werkt. Een consistente opbouw zorgt ervoor dat de website duidelijk blijft zonder te druk aan te voelen.
+             </p>
+
+            <h2 class="text-2xl font-semibold mt-6">Gsm-schermen</h2>
+             <h3 class="text-lg font-semibold">Wat ik deed:</h3>
+            <p class="leading-relaxed">
+                Ik heb mijn gsm-schermen in Figma aangepast op basis van de feedback en extra uitleg gevraagd over interactieve elementen.
+            </p>
+
+            <h3 class="text-lg font-semibold">Wat ik veranderde en waarom:</h3>
+            <p class="leading-relaxed">
+                De docent gaf in de algemene feedback aan dat vlaggen niet geschikt zijn als taalherkenning. Daarom heb ik deze vervangen door taalafkortingen. Daarnaast heb ik gevraagd hoe je in Figma kan tonen dat er tekst in invoervelden wordt getypt. Dit kan niet echt interactief, maar met hulp van de docent heb ik een visueel effect toegepast dat dit gevoel nabootst. Vervolgens heb ik ditzelfde effect doorgevoerd op alle andere schermen met invoervelden. Ook heb ik het woord ‘train’ alleen op het hoofdscherm laten staan, maar iets lager geplaatst, omdat het anders bij het openen van het prototype op een telefoon niet volledig zichtbaar was. Bij de andere schermen heb ik het weggelaten omdat er te weinig ruimte voor de tekst. 
+            </p>
+
+            <h3 class="text-lg font-semibold">UX/UI-vragen:</h3>
+            <ul class="list-disc ml-6 text-gray-700">
+                <li>Zijn de taalafkortingen herkenbaar zonder extra uitleg?</li>
+                <li>Is het voor de gebruiker duidelijk dat de invoervelden interactief zijn?</li>
+            </ul>
+
+            <h3 class="text-lg font-semibold">Usability check:</h3>
+            <p class="leading-relaxed">
+                Door het gebruik van visuele effecten in invoervelden heb ik getest hoe duidelijk het is dat de gebruiker hier kan typen. Door dit consistent toe te passen op alle schermen voelen de gsm-schermen logischer en realistischer aan in gebruik.
+            </p>
+
+        <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/begin.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/begin.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+
+        <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/login.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/login.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/sign up.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/sign up.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/plan je reis.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/plan je reis.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/reis gepland.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/reis gepland .png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/reisdetails.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/reisdetails.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/favorieten trajecten.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/ favoriete trajecten.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/je account.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/je account.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/ticket kopen.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/ticket kopen.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/vragen.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/vragen.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/vraag ticket.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/ vraag ticket .png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/vraag fiets.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/vraag fiets.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/vraag staking.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/vraag staking .png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+         <div class="flex gap-4 flex-wrap justify-start">
+         <img src="image/scherm/zelf vraag stellen.png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+          <img src="image/gsm scherm/zelf vraag stellen .png" class="rounded-lg shadow-md cursor-pointer w-40 transition hover:scale-105" onclick="openModal(this.src)" />
+        </div>
+        <!-- Één enkele modal voor alle afbeeldingen -->
+         <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+             <div class="relative">
+                 <img id="modal-img" class="max-w-full max-h-[90vh] rounded-lg" />
+                 <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-2xl font-bold bg-gray-800 bg-opacity-50 rounded-full px-2 py-1 hover:bg-opacity-80">&times;</button>
+             </div>
+        </div>
+
+        <script>
+        function openModal(src) {
+         document.getElementById('modal-img').src = src;
+         document.getElementById('modal').classList.remove('hidden');
+        }
+        function closeModal() {
+         document.getElementById('modal').classList.add('hidden');
+        }
+        </script>
+
+        <!-- GitHub Button Footer -->
+<div class="grid justify-center mt-6">
+    <a href="https://github.com/samreekmans/ontwerpdocumentatie" target="_blank"
+       class="bg-pink-600 text-white text-lg font-semibold px-6 py-4 rounded-xl shadow-lg text-center transform transition 
+              hover:-translate-y-1 hover:scale-105 hover:bg-pink-700 duration-300">
+        Bekijk op GitHub
+    </a>
+</div>
+    </div>
